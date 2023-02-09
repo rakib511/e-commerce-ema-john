@@ -1,18 +1,30 @@
-.shop-container{
+.shop-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.products-container{
+
+.products-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
     margin: 100px 50px;
 }
-.cart-container{
+
+.cart-container {
     background-color: rgba(255, 153, 0, 0.3);
 }
+
+.review-orders {
+    color: aliceblue;
+    background-color: orange;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
 @media screen and (max-width:1100px) {
-    .products-container{
+    .products-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
